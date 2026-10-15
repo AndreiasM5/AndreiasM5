@@ -32,7 +32,6 @@ Nine mechanical keys, three physical audio controls, an LCD, and sensors connect
 
 | Project | What it does | Built with |
 | --- | --- | --- |
-| [🎵 Lumentra](https://github.com/AndreiasM5/lumentra-usb-midi) | USB-MIDI controller with four note buttons and touchless expression control for a DAW such as FL Studio | Rust, Pico 2 W, USB-MIDI, KiCad |
 | [🎸 Ukulele Tuner](https://github.com/AndreiasM5/esp32-ukulele-tuner) | Microphone-based pitch detection with a color display, servo actuation, and audible feedback | Rust, ESP32, I2S, ESP-IDF |
 | [💊 Smart Pill Dispenser](https://github.com/AndreiasM5/esp32-smart-pill-dispenser) | Dual-controller prototype with dispensing, reminders, button confirmation, and camera capture | C++, ESP32 / ESP32-S3, PlatformIO, ESP-NOW |
 
