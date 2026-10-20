@@ -6,7 +6,7 @@
 
 **I build devices and the software that brings them to life.**
 
-[Featured work](#featured-work) · [Technologies](#technologies) · [Get in touch](mailto:andrei.ivascu5@yahoo.com)
+[Featured work](#featured-work) · [Download IVA DECK V5](https://github.com/AndreiasM5/IVA_DECK/releases/latest) · [Technologies](#technologies) · [Get in touch](mailto:andrei.ivascu5@yahoo.com)
 
 </div>
 
@@ -22,11 +22,27 @@ My projects explore programmable input devices, music tools, and assistive-devic
 
 [![IVA DECK: the desktop companion alongside the physical keyboard](assets/iva-deck.jpg)](https://github.com/AndreiasM5/IVA_DECK)
 
-Nine mechanical keys, three physical audio controls, an LCD, and sensors connected to a Python / PyQt6 desktop companion. The project combines custom KiCad boards, ESP32 development, configurable macros, Windows audio control, and a Random Forest behavioral-recognition experiment.
+Nine mechanical keys, three physical audio controls, an LCD, and sensors connected to a Python / PyQt6 desktop companion over Bluetooth or USB serial. I designed the custom KiCad boards and developed the device integration, configurable macros, Windows audio controls, and desktop interface. The original thesis also explored behavioral recognition with Random Forest.
 
 **ESP32 · C++ · Python · PyQt6 · KiCad · scikit-learn**
 
 [Explore the project](https://github.com/AndreiasM5/IVA_DECK) · [Watch the demo](https://github.com/AndreiasM5/IVA_DECK/blob/main/docs/media/iva-deck-demo.mp4) · [Read the technical guides](https://github.com/AndreiasM5/IVA_DECK/tree/main/docs)
+
+#### IVA DECK V5 — Windows app, now available
+
+The latest desktop companion turns the keyboard into an everyday macro pad, with a purple/pink interface and a Windows installer that runs without a separate Python installation.
+
+[![IVA DECK V5: nine macro keys and three animated potentiometers](assets/iva-deck-v5.png)](https://github.com/AndreiasM5/IVA_DECK/releases/tag/v5.0.0)
+
+- **Macros:** assign shortcuts to the nine keys, capture key combinations, and manage them in an editable library.
+- **Audio:** watch three animated potentiometers respond to the physical controls and choose an application for each volume channel.
+- **Device controls:** monitor proximity, trigger the buzzer, and send text to the LCD.
+- **Daily use:** saved macros, audio targets and connection settings, with Bluetooth/USB serial support.
+- **Distribution:** Windows installer, portable ZIP, GPLv3 source and SHA-256 checksums. AI and SD-image workflows are outside the V5 release.
+
+**[Download the Windows installer](https://github.com/AndreiasM5/IVA_DECK/releases/download/v5.0.0/IVA-DECK-5.0.0-Setup-x64.exe)** · [V5.0.0 release & portable app](https://github.com/AndreiasM5/IVA_DECK/releases/tag/v5.0.0) · [Installation guide (RO)](https://github.com/AndreiasM5/IVA_DECK/blob/main/docs/windows-app-v5.ro.md) · [Source & build instructions](https://github.com/AndreiasM5/IVA_DECK/tree/main/SOFTWARE/APP/v5)
+
+*Windows 10 21H2+ / Windows 11 x64. The first installer is unsigned; release notes explain the Windows SmartScreen warning.*
 
 ### More things I've built
 
@@ -43,7 +59,7 @@ Nine mechanical keys, three physical audio controls, an LCD, and sensors connect
 | Programming | Python, C / C++, Rust |
 | Embedded systems | ESP32, ESP32-S3, Raspberry Pi Pico 2 W, Arduino, ESP-IDF, PlatformIO |
 | Hardware design | KiCad, PCB design, sensor and peripheral integration |
-| Desktop software | PyQt6, serial communication, hardware control interfaces |
+| Desktop software | PyQt6, serial communication, hardware control interfaces, Windows packaging with PyInstaller and Inno Setup |
 | Data and experiments | pandas, scikit-learn, feature extraction, Random Forest |
 
 ## Let's build something
