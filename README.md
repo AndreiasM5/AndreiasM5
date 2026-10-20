@@ -2,7 +2,7 @@
 
 # Hi, I'm Andrei 👋
 
-### Hardware · Embedded Systems · Desktop Software
+### Hardware · Software
 
 **I build devices and the software that brings them to life.**
 
